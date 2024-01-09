@@ -1,0 +1,32 @@
+repo_name: e8y-co/animal-art-factory-site
+report_id: 8321ff2891c8533a4280da065ef9c416
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T08:21:17+00:00'
+requested_by: anthonyjesmok
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/e8y-co/animal-art-factory-site
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/e8y-co/animal-art-factory-site/blob/main/.github/workflows/firebase-hosting-merge.yml
+  detection_source: ".github/workflows/firebase-hosting-merge.yml"
+  last_updated_by: Anthony Jesmok
+  last_updated_on: 2023-05-06 17:47:11.000000000 Z
